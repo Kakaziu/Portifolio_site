@@ -1,5 +1,31 @@
 .header{
-  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  transition: 0.5s;
+}
+
+.headerDown{
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.432);
+}
+
+.headerDown nav ul li{
+  color: black;
+}
+
+.headerDown .title h2{
+  color: black;
+}
+
+.headerDownAni{
+  animation-name: onHeaderDown;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
 }
 
 .container{
@@ -45,7 +71,7 @@
   display: flex;
 }
 
-.nav ul li{
+.link-nav{
   margin-left: 25px;
   color: white;
 }
@@ -76,5 +102,15 @@
   to {
     left: 30px;
     opacity: 0;
+  }
+}
+
+@keyframes onHeaderDown{
+  from {
+    top: -10%;
+  }
+
+  to {
+    top: 0%;
   }
 }

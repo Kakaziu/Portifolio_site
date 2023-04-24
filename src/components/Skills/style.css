@@ -1,7 +1,7 @@
 #skills{
   color: white;
   background-color: #2b2828;
-  margin-top: 12%;
+  margin-top: 15%;
   position: relative;
   padding: 10px 0px;
 }
@@ -9,34 +9,4 @@
 .wave-2{
   position: absolute;
   bottom: 100%;
-}
-
-.hard-skills{
-  padding: 30px;
-  width: 90%;
-  margin: auto;
-}
-
-.carousel-1{
-  margin-top: 30px;
-}
-
-.skill{
-  background-color: #0CE1EF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  padding: 30px;
-}
-
-.skill span{
-  margin-top: 15px;
-  font-size: 18px;
-  font-weight: bold;
-}
-
-.swiper-button-next{
-
 }

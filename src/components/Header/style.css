@@ -24,7 +24,7 @@
 
 .headerDownAni{
   animation-name: onHeaderDown;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 

@@ -9,6 +9,8 @@
 
 .content-about{
   width: 50%;
+  position: relative;
+  z-index: 9998;
 }
 
 .content-about h3{
@@ -19,18 +21,23 @@
   margin-top: 30px;
 }
 
-.btn-download{
-  display: block;
+.content-about a{
   margin-top: 20px;
   background-color: #0CE1EF;
   width: 40%;
-  text-align: center;
   border-radius: 4px;
   padding: 8px 0px;
   color: white;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-download{
+  margin-left: 10px;
 }
 
 .btn-download:hover{

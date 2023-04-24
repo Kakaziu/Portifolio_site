@@ -1,4 +1,5 @@
 import React from "react";
+import { AiOutlineDownload } from 'react-icons/ai'
 import './style.css'
 
 const About = () =>{
@@ -19,7 +20,7 @@ const About = () =>{
           Sou muito comunicativo e adoro aprender coisas novas, e isso me motiva a estar sempre atualizado
           sobre as novas tecnologias e tendências da área de tecnologia.</p>
 
-          <a className="btn-download">Download CV</a>
+          <a className="btn-download">Download CV <AiOutlineDownload size='22' className="icon-download"/></a>
       </div>
     </section>
   )

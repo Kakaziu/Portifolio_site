@@ -1,0 +1,96 @@
+.footer{
+  margin-top: 15%;
+  background-color: #0CE1EF;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.info-area{
+  margin: auto;
+  width: 95%;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.info-me{
+  width: 35%;
+}
+
+.info-me p{
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.info-me a{
+  background-color: #433E3E;
+  width: 70%;
+  text-decoration: none;
+}
+
+.info-me a:hover{
+  background-color: #221f1f
+}
+
+.info-contact{
+  width: 27%;
+}
+
+.info-contact ul{
+  list-style: none;
+  font-size: 18px;
+}
+
+.info-contact h2{
+  margin-bottom: 20px;
+}
+
+.info-contact ul li{
+  margin-bottom: 10px;
+}
+
+.info-contact ul li a{
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.info-contact ul li a:hover{
+  color: #0bbac7;
+}
+
+.social-media{
+  width: 27%;
+}
+
+.social-media div{
+  margin-top: 20px;
+}
+
+.icon-footer{
+  margin-right: 10px;
+  color: black;
+  transition: 0.3s;
+}
+
+.github:hover{
+  color: #171515;
+}
+
+.whats:hover{
+  color: #19ca60;
+}
+
+.ig:hover{
+  color: #962fbf;
+}
+
+.final{
+  background-color: #433E3E;
+  padding: 10px;
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+

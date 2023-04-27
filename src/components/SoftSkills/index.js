@@ -9,14 +9,14 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper";
 import './style.css'
 
-const SoftSkills = () =>{
+const SoftSkills = ({ slidesPerView }) =>{
   return(
     <div className="soft-skills">
       <h2>SoftSkills</h2>
 
       <Swiper
         dir="rtl"
-            slidesPerView={4}
+            slidesPerView={slidesPerView}
             spaceBetween={30}
             autoplay={{
               delay: 2500,

@@ -11,13 +11,13 @@ import { BsGit, BsGithub } from 'react-icons/bs'
 import { Navigation, Autoplay } from "swiper";
 import './style.css'
 
-const HardSkills = () =>{
+const HardSkills = ({ slidesPerView }) =>{
   return(
     <div className="hard-skills">
           <h2>Hard Skills</h2>
 
           <Swiper
-            slidesPerView={4}
+            slidesPerView={slidesPerView}
             spaceBetween={30}
             autoplay={{
               delay: 2500,

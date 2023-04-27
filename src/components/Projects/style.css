@@ -5,7 +5,7 @@
 }
 
 #projects hr{
-  width: 4%;
+  width: 40px;
   height: 7px;
   background-color: #0CE1EF;
   border: none;
@@ -137,3 +137,53 @@
     color: #505050;
   }
 }
+
+
+@media (max-width: 1115px){
+  .project{
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px){
+  #projects{
+    width: 95%;
+  }
+}
+
+@media (max-width: 570px){
+  .project{
+    width: 95%;
+  }
+
+  .btns-project{
+    justify-content: center;
+  }
+}
+
+@media (max-width: 450px){
+
+  .project{
+    height: 250px;
+  }
+
+  .btns-project a{
+    font-size: 13px;
+    width: 50%;
+  }
+
+  .content-project{
+    padding: 20px;
+  }
+
+  .content-project h3{
+    font-size: 18px;
+  }
+
+  .content-project p{
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+
+

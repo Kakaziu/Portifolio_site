@@ -112,4 +112,54 @@
   background-color: #0ab2be;
 }
 
+@media (max-width: 1115px){
+  .content-contact img{
+    width: 300px;
+  }
+
+  .wave-3{
+    top: 80px;
+  }
+}
+
+@media (max-width: 900px){
+  #contact h2{
+    text-align: center;
+  }
+
+  .form{
+    width: 80%;
+    margin: auto;
+    margin-top: 3%;
+  }
+
+  .wave-3{
+    top: 30px;
+  }
+}
+
+@media (max-width: 500px){
+  .form{
+    width: 100%;
+    padding-top: 5%;
+  }
+
+  .content-contact{
+    width: 95%;
+  }
+
+  .wave-3{
+    top: 20px
+  }
+
+  .btns a{
+    width: 45%;
+    justify-content: center;
+  }
+
+  .btns span{
+    padding: 0px 10px;
+  }
+}
+
 

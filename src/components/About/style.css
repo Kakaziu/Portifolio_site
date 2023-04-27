@@ -43,3 +43,32 @@
 .btn-download:hover{
   background-color: #0bccda;
 }
+
+@media (max-width: 1000px){
+  #about{
+    width: 95%;
+  }
+}
+
+@media (max-width: 850px){
+  #about{
+    flex-direction: column;
+  }
+
+  .content-about{
+    width: 80%;
+  }
+}
+
+@media (max-width: 600px){
+  .content-about{
+    width: 95%;
+    text-align: center;
+  }
+
+  .btn-download{
+    margin: auto;
+    margin-top: 30px;
+    width: 200px;
+  }
+}

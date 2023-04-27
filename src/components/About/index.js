@@ -1,15 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { AiOutlineDownload } from 'react-icons/ai'
 import './style.css'
+import { IconBase } from "react-icons";
 
 const About = () =>{
+
+  const [IconAbout, setIconAbout] = useState({ width: '450px', height: '450px'})
+
+  useEffect(() =>{
+    if(window.innerWidth < 600){
+      setIconAbout({ width: '400px', height: '400px'})
+    }
+  }, [])
+
   return(
     <section id="about">
       <lord-icon
         src="https://cdn.lordicon.com/qhgmphtg.json"
         trigger="loop"
         delay={2000}
-        style={{width:'450px', height:'450px'}}>
+        style={{width: IconAbout.width, height: IconAbout.height}}>
       </lord-icon>
 
       <div className="content-about">

@@ -47,7 +47,7 @@ const Contact = () =>{
               <span>{inputMessage.error}</span>
             </div>
             <div className='btns'>
-              <a className='email-link' onClick={handleSubmit}>Enviar</a>
+              <a className='email-link' onClick={handleSubmit} style={{ cursor: 'pointer' }}>Enviar</a>
               <span>ou</span>
               <a href='https://wa.me/5521972462497' className='wpp-link'><AiOutlineWhatsApp className='icon-contact' size='22'/>Whatsapp</a>
             </div>

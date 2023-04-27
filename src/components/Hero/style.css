@@ -3,6 +3,10 @@
   height: 90vh;
   background-color: #433E3E;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .hero{
@@ -53,7 +57,8 @@
   margin-right: 20px;
 }
 
-.content-hero button{
+.content-hero a{
+  display: block;
   margin-top: 20px;
   padding: 10px 0px;
   width: 50%;
@@ -64,15 +69,129 @@
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s;
+  text-align: center;
+  color: black;
 }
 
-.content-hero button:hover{
+.content-hero a:hover{
   background-color: black;
   color: #11CBF3;
 }
 
 .wave{
-  position: relative;
-  top: -5%;
-  z-index: 9998;
+
+}
+
+@media (max-width: 1200px){
+  .hero{
+    width: 90%;
+  }
+
+  .content-hero h1{
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 920px){
+  #home{
+    height: 100%;
+  }
+
+  .hero{
+    flex-direction: column-reverse;
+  }
+
+  .img-hero{
+    width: 80%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .img-hero img{
+    width: 80%;
+    position: relative;
+    animation-name: move;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 2s;
+  }
+
+  .content-hero h1{
+    text-align: center;
+  }
+
+  .content-hero{
+    margin-top: 20%;
+    margin-left: 0;
+  }
+
+  .content-hero a{
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  @keyframes move{
+    from {
+      top:15px;
+    }
+    to {
+      top: -15px;
+    }
+  }
+}
+
+@media (max-width: 720px){
+  .hero{
+    width: 95%;
+  }
+
+  .icons img{
+    width: 48px;
+  }
+}
+
+@media (max-width: 600px){
+  .content-hero{
+    margin-top: 30%;
+    width: 100%;
+  }
+
+  .content-hero h1{
+    width: 100%;
+    font-size: 35px;
+  }
+
+  .content-hero h1 span{
+    width: 100%;
+  }
+
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+  }
+
+  .icons img{
+    margin-top: 10px;
+    width: 35px;
+  }
+
+  .content-hero a{
+    width: 80%;
+  }
+}
+
+@media (max-width: 450px){
+
+  .content-hero{
+    margin-top: 35%;
+  }
+
+  .content-hero h1{
+    font-size: 30px;
+  }
 }

@@ -20,7 +20,7 @@ const About = () =>{
           Sou muito comunicativo e adoro aprender coisas novas, e isso me motiva a estar sempre atualizado
           sobre as novas tecnologias e tendências da área de tecnologia.</p>
 
-          <a className="btn-download">Download CV <AiOutlineDownload size='22' className="icon-download"/></a>
+          <a href="./assets/pdf/curriculo.pdf" className="btn-download" download>Download CV <AiOutlineDownload size='22' className="icon-download"/></a>
       </div>
     </section>
   )

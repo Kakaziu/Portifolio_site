@@ -1,7 +1,6 @@
 #about{
   width: 80%;
   margin: auto;
-  margin-top: 16%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,6 +21,7 @@
 }
 
 .btn-download{
+  text-decoration: none;
   margin-top: 20px;
   background-color: #0CE1EF;
   width: 40%;

@@ -74,6 +74,16 @@
 .link-nav{
   margin-left: 25px;
   color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.link-nav:hover{
+  color: #0CE1EF;
+}
+
+.menu-mobile{
+  display: none;
 }
 
 @keyframes moveTitleOn{
@@ -112,5 +122,76 @@
 
   to {
     top: 0%;
+  }
+}
+
+@media (max-width: 920px){
+  .header{
+    background-color: white;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.432);
+  }
+
+  .title{
+    color: black;
+  }
+
+  .link-nav{
+    color: black;
+  }
+}
+
+@media (max-width: 770px){
+  .nav{
+    position: absolute;
+    top: -500%;
+    right: 0%;
+    width: 100%;
+    background-color: #0CE1EF;
+    transition: 0.5s;
+  }
+
+  .nav-mobile-on{
+    animation-name: showMenuMobile;
+    animation-fill-mode: forwards;
+    animation-duration: 0.5s;
+  }
+
+  .nav ul{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px 40px 40px;
+  }
+
+  .nav ul li{
+    margin-left: 0px;
+    margin-top:40px;
+    font-size: 20px;
+  }
+
+  .link-nav:hover{
+    color: white;
+  }
+
+  .menu-mobile{
+    display: block;
+    position: absolute;
+    color: black;
+    top: 23px;
+    right: 50px;
+    cursor: pointer;
+  }
+
+  @keyframes showMenuMobile{
+    0% {
+      opacity: 0;
+      top: -500%;
+    }
+
+    100%{
+      opacity: 1;
+      top: 100%;
+    }
   }
 }

@@ -94,3 +94,46 @@
   text-align: center;
 }
 
+@media (max-width: 900px){
+  .info-area{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-me{
+    margin-top: 5%;
+    width: 95%;
+    text-align:center ;
+  }
+
+  .info-me a{
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .info-contact{
+    width: 95%;
+    align-items: center;
+    text-align: center;
+    margin-top: 8%;
+  }
+
+  .social-media{
+    width: 95%;
+    margin-top: 8%;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px){
+  .info-area{
+    padding: 20px;
+  }
+
+  .footer{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    margin-top: 25%;
+  }
+}

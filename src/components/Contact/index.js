@@ -3,15 +3,6 @@ import { AiOutlineMail, AiOutlineWhatsApp } from 'react-icons/ai'
 import './style.css'
 
 const Contact = () =>{
-
-  const [showIcon, setShowIcon] = useState(true)
-
-  useEffect(() =>{
-    if(window.innerWidth < 900){
-      setShowIcon(false)
-    }
-  }, [])
-
   const [inputName, setInputName] = useState({ value: '', error: ''})
   const [inputSubject, setInputSubject] = useState({ value: '', error: ''})
   const [inputMessage, setInputMessage] = useState({ value: '', error: ''})
@@ -60,7 +51,7 @@ const Contact = () =>{
               <a href='https://wa.me/5521972462497' className='wpp-link'><AiOutlineWhatsApp className='icon-contact' size='22'/>Whatsapp</a>
             </div>
           </form>
-          { showIcon ? <img src='./assets/images/email.png'></img>: <></> }
+         <img src='./assets/images/email.png'></img>
         </div>
       </section>
     </>

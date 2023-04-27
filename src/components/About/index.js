@@ -9,7 +9,7 @@ const About = () =>{
 
   useEffect(() =>{
     if(window.innerWidth < 600){
-      setIconAbout({ width: '400px', height: '400px'})
+      setIconAbout({ width: '350px', height: '350px'})
     }
   }, [])
 

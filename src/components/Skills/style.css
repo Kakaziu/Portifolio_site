@@ -9,4 +9,5 @@
 .wave-2{
   position: absolute;
   bottom: 100%;
+  margin-bottom: -4px;
 }

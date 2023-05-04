@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineDownload } from 'react-icons/ai'
 import './style.css'
-import { IconBase } from "react-icons";
 
 const About = () =>{
 
@@ -9,7 +8,7 @@ const About = () =>{
 
   useEffect(() =>{
     if(window.innerWidth < 600){
-      setIconAbout({ width: '350px', height: '350px'})
+      setIconAbout({ width: '300px', height: '300px'})
     }
   }, [])
 

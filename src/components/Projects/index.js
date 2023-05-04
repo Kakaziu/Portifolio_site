@@ -36,23 +36,8 @@ const Projects = () =>{
             </div>
 
             <div className="btns-project">
-              <a className="website-btn" href="#">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
-              <a className="repo-btn" href="#">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
-            </div>
-          </div>
-        </div>
-        <div className="project" onDoubleClick={handleDoubleClick}>
-          <div className="overlay">Clique duas vezes</div>
-          <img src="./assets/images/blog.jpg" alt="img-project"/>
-          <div className="content-project">
-            <div>
-              <h3>BlogApp</h3>
-              <p>Uma aplicação que simula os dois lados de um blog, tanto o do leitor, como o do autor. Feita com ReactJs e Redux no frontend, NodeJs pro backend e MariaDB como banco de dados.</p>
-            </div>
-
-            <div className="btns-project">
-              <a className="website-btn" href="#">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
-              <a className="repo-btn" href="#">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
+              <a className="website-btn" href="https://spontaneous-capybara-a0990d.netlify.app" target='_blank' rel="noreferrer">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
+              <a className="repo-btn" href="https://github.com/Kakaziu/MyFinances" target='_blank' rel="noreferrer">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
             </div>
           </div>
         </div>
@@ -66,8 +51,8 @@ const Projects = () =>{
             </div>
 
             <div className="btns-project">
-              <a className="website-btn" href="#">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
-              <a className="repo-btn" href="#">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
+              <a className="website-btn" href="https://effulgent-palmier-82046d.netlify.app/" target="_blank" rel="noreferrer">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
+              <a className="repo-btn" href="https://github.com/Kakaziu/Agenda_2" target="_blank" rel="noreferrer">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
             </div>
           </div>
         </div>
@@ -81,8 +66,8 @@ const Projects = () =>{
             </div>
 
             <div className="btns-project">
-              <a className="website-btn" href="#">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
-              <a className="repo-btn" href="#">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
+              <a className="website-btn" href="https://sparkling-elf-9f246c.netlify.app/" target="_blank" rel="noreferrer">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
+              <a className="repo-btn" href="https://github.com/Kakaziu/Consult" target="_blank" rel="noreferrer">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
             </div>
           </div>
         </div>
@@ -96,8 +81,8 @@ const Projects = () =>{
             </div>
 
             <div className="btns-project">
-              <a className="website-btn" href="#">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
-              <a className="repo-btn" href="#">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
+              <a className="website-btn" href="https://courageous-heliotrope-5a3bf4.netlify.app/" target="_blank" rel="noreferrer">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
+              <a className="repo-btn" href="https://github.com/Kakaziu/E-kicky" target="_blank" rel="noreferrer">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
             </div>
           </div>
         </div>
@@ -111,8 +96,8 @@ const Projects = () =>{
             </div>
 
             <div className="btns-project">
-              <a className="website-btn" href="#">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
-              <a className="repo-btn" href="#">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
+              <a className="website-btn" href="https://serene-horse-4f3eb9.netlify.app/" target="_blank" rel="noreferrer">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
+              <a className="repo-btn" href="https://github.com/Kakaziu/Finder-book" target="_blank" rel="noreferrer">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
             </div>
           </div>
         </div>
@@ -126,8 +111,8 @@ const Projects = () =>{
             </div>
 
             <div className="btns-project">
-              <a className="website-btn" href="#">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
-              <a className="repo-btn" href="#">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
+              <a className="website-btn" href="https://kakaziu.github.io/Music-player/" target="_blank" rel="noreferrer">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
+              <a className="repo-btn" href="https://github.com/Kakaziu/Music-player" target="_blank" rel="noreferrer">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
             </div>
           </div>
         </div>
@@ -141,8 +126,8 @@ const Projects = () =>{
             </div>
 
             <div className="btns-project">
-              <a className="website-btn" href="#">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
-              <a className="repo-btn" href="#">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
+              <a className="website-btn" href="https://fanciful-sunshine-af2bf7.netlify.app/" target="_blank" rel="noreferrer">Visitar <RiComputerFill size='20' className="icon-btn-project"/></a>
+              <a className="repo-btn" href="https://github.com/Kakaziu/MyNotes" target="_blank" rel="noreferrer">Repositório <AiFillGithub size='20' className="icon-btn-project"/></a>
             </div>
           </div>
         </div>
